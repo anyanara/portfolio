@@ -1,0 +1,813 @@
+		.myContact{
+			background:#7877e6;
+			color:#fff;
+			border-radius:20px 0 20px 0;
+			padding:10px 20px;
+		}
+		
+		
+.footer{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			padding:80px 0;
+			background:black;
+			text-align:center;
+}
+.footer h1{
+	color:#fff;
+	font-size:19px;
+	font-family:helvetica;
+}
+		
+		
+		.home{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			height:100vh;
+			
+		}
+		.homeWrap{
+			display:flex;
+			gap:50px;
+			justify-content:center;
+			align-items:center;
+			
+		}
+		.homeOne{
+			width:400px;
+			height:400px;
+		}
+		.homeOne img{
+			width:100%;
+			height:100%;
+			border-radius:50%;
+			object-fit:cover;
+			aspect-ratio:1;
+		}
+		.homeTwo{
+			padding:0 45px;
+			background:#eaf3f6;
+			border-radius:40px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			width:600px;
+			height:300px;
+		}
+.homeTwo h1 {
+    font-size: 60px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 50px;
+    font-weight: 500;
+    position: relative; /* Required for positioning the ::after pseudo-element */
+}
+
+.homeTwo h1::after {
+    content: "";
+    position: absolute;
+    bottom: -9px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 100%;
+    height: 7.5px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+.homeTwo h1::before {
+    content: "";
+    position: absolute;
+    bottom: -20px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 100%;
+    height: 7.5px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+		.homeTwo p{
+			color:#172e36;
+			font-size:30px;
+			letter-spacing:0.2px;
+			text-align:center;
+			margin:0;
+			font-weight:500;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		  
+		
+		
+		.about{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			margin-top:70px;
+			height:100vh;
+		}
+		.aboutWrap{
+			display:flex;
+			gap:20px;
+			justify-content:center;
+			align-items:center;
+			
+		}
+		.aboutOne{
+			width:500px;
+			height:500px;
+		}
+		
+		.aboutOne img{
+			width:100%;
+			height:100%;
+			border-radius:30px;
+			object-fit:cover;
+			aspect-ratio:1;
+		}
+		.aboutTwo{
+			padding:0 45px;
+			background:#eaf3f6;
+			border-radius:40px;
+			display:flex;
+			justify-content:flex-start;
+			align-items:left;
+			flex-direction:column;
+			text-align:left;
+			width:600px;
+			height:500px;
+		}
+.aboutTwo h1 {
+    font-size: 35px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative; /* Required for positioning the ::after pseudo-element */
+	text-align:left;
+	
+			padding-top:30px;
+			
+}
+
+.aboutTwo h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 150px;
+    height: 4px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+.aboutTwo h1::before {
+    content: "";
+    position: absolute;
+    bottom: -7px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 150px;
+    height: 4px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+		.aboutTwo p{
+			color:#172e36;
+			font-size:18px;
+			letter-spacing:0.2px;
+			text-align:center;
+			margin:0;
+			font-weight:400;
+			text-align:left;
+			line-height:1.4;
+			word-spacing:3px;
+			font-family:helvetica;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		.contact{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			height:100vh;
+			background:#eaf3f6;
+		}
+		.contactWrap{
+			display:flex;
+			gap:20px;
+			justify-content:flex-start;
+			align-items:center;
+			width:100%;
+			
+		}
+		.contactOne{
+		flex-basis:45%;
+			display:flex;
+			justify-content:flex-start;
+			align-items:left;
+			flex-direction:column;
+			text-align:left;
+			padding-left:70px;
+			margin-top:-150px;
+		}
+.contactOne h1 {
+    font-size: 55px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 600;
+    position: relative; /* Required for positioning the ::after pseudo-element */
+	text-align:left;
+	
+			padding-top:50px;
+			
+}
+
+.contactOne h1::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 500px;
+    height: 6px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+.contactOne h1::before {
+    content: "";
+    position: absolute;
+    bottom: -14px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 500px;
+    height: 6px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+		.contactOne p{
+			color:#172e36;
+			font-size:18px;
+			letter-spacing:0.2px;
+			text-align:center;
+			margin:0;
+			font-weight:400;
+			text-align:left;
+			line-height:1.4;
+			word-spacing:3px;
+			font-family:helvetica;
+		}
+		.icons{
+			display:flex;
+			gap:10px;
+			margin-top:20px;
+		}
+		.icons i{
+			width:50px;
+			height:50px;
+			text-align:center;
+			background:black;
+			color:#fff;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			border-radius:50%;
+		}
+		.contactTwo{
+			flex-basis:55%;
+			padding-right:70px;
+		}
+		.contactTwo form{
+			display:flex;
+			flex-direction:column;
+			
+		}
+		label{
+			margin-bottom:10px;
+		}
+		.inputss{
+			padding:10px;
+			margin-bottom:20px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+.portfolio{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			min-height:100vh;
+			padding-bottom:70px;
+}
+.portfolioWrap{
+			display:flex;
+			gap:20px;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			flex-direction:column;
+			
+		}
+.portfolioTitle{
+	width:100%;
+	padding:80px 0;
+	background:#eaf3f6;
+	text-align:center;
+	font-size:40px;
+	font-weight:700;
+}
+.portfolioCard{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+				margin-bottom:90px;
+			
+}
+.portfolioCard .portfolioOne{
+	flex-basis:50%;
+	text-align:center;
+}
+
+.portfolioCard .portfolioOne img{
+	width:80%;
+}
+
+.portfolioCard .portfolioOne .portfolioImgTwo{
+	width:50%;
+}
+.portfolioCard .portfolioTwo{
+	flex-basis:40%;
+	text-align:left;
+	padding-right:70px;
+	margin-left:-50px;
+}
+
+.portfolioCard .portfolioTwo h1{
+	font-size:28px;
+	
+}
+.portfolioCard .portfolioTwo h3{
+	font-size:17px;
+	
+}
+.portfolioCard .portfolioTwo p{
+	margin-bottom:70px;
+}
+.portfolioCard .portfolioTwo a{
+	background:#7877e6;
+	color:#fff;
+	border-radius:20px 0 20px 0;
+	padding:20px 40px;
+	
+}		
+
+.wrapAroubnd{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:100%;
+	min-height:100vh;
+	
+	
+}
+@media only screen and (max-width: 480px) {
+
+		.home{
+			height:100vh;
+			
+		}
+		.homeWrap{
+			gap:10px;
+			width:100%;
+			flex-direction:column;
+			
+		}
+		.homeOne{
+			width:100%;
+			height:300px;
+			text-align:center;
+			
+		}
+		.homeOne img{
+			margin-top:150px;
+			text-align:center;
+			width:300px;
+			margin-left:28%;
+			
+		}
+		.homeTwo{
+			padding:0 20px;
+			background:#eaf3f6;
+			border-radius:40px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			width:100%;
+			height:300px;
+			margin-top:250px;
+			margin-left:40%;
+		}
+.homeTwo h1 {
+    font-size: 25px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 50px;
+    font-weight: 500;
+    position: relative; /* Required for positioning the ::after pseudo-element */
+}
+
+.homeTwo h1::after {
+    content: "";
+    position: absolute;
+    bottom: -9px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 100%;
+    height: 7.5px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+.homeTwo h1::before {
+    content: "";
+    position: absolute;
+    bottom: -20px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 100%;
+    height: 7.5px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+		.homeTwo p{
+			color:#172e36;
+			font-size:17px;
+			letter-spacing:0.2px;
+			text-align:center;
+			margin:0;
+			font-weight:500;
+		}
+		
+
+
+
+
+
+
+
+
+
+
+
+.about{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			min-height:100vh;
+			margin-top:200px;
+		}
+		.aboutWrap{
+			display:flex;
+			gap:20px;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			
+		}
+
+		.aboutOne{
+			width:300px;
+			height:300px;
+		}
+		
+		.aboutOne img{
+			width:100%;
+			height:100%;
+			border-radius:30px;
+			object-fit:cover;
+			aspect-ratio:1;
+			margin-left:25%;
+		}
+		.aboutTwo{
+			padding:0 20px;
+			background:#eaf3f6;
+			border-radius:40px;
+			display:flex;
+			justify-content:flex-start;
+			align-items:left;
+			flex-direction:column;
+			text-align:center;
+			width:350px;
+			height:auto;
+			margin-left:35%;
+		}
+.aboutTwo h1 {
+    font-size: 35px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative; /* Required for positioning the ::after pseudo-element */
+	text-align:left;
+	
+			padding-top:30px;
+			
+}
+
+.aboutTwo h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 150px;
+    height: 4px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+.aboutTwo h1::before {
+    content: "";
+    position: absolute;
+    bottom: -7px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 150px;
+    height: 4px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+		.aboutTwo p{
+			color:#172e36;
+			font-size:18px;
+			letter-spacing:0.2px;
+			text-align:center;
+			margin:0;
+			font-weight:400;
+			text-align:left;
+			line-height:1.4;
+			word-spacing:3px;
+			font-family:helvetica;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		.contact{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			min-height:100vh;
+			background:#eaf3f6;
+			padding:30px 120px;
+		}
+		.contactWrap{
+			display:flex;
+			gap:0px;
+			justify-content:flex-start;
+			align-items:center;
+			width:100%;
+			flex-direction:column;
+			margin-left:20%;
+			
+		}
+		.contactOne{
+		flex-basis:100%;
+			display:flex;
+			justify-content:flex-start;
+			align-items:left;
+			flex-direction:column;
+			text-align:left;
+			padding-left:0px;
+			margin-top:-110px;
+			margin-left:20%;
+		}
+.contactOne h1 {
+    font-size: 25px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 600;
+    position: relative; /* Required for positioning the ::after pseudo-element */
+	text-align:left;
+	
+			padding-top:50px;
+			
+}
+
+.contactOne h1::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 200px;
+    height: 6px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+.contactOne h1::before {
+    content: "";
+    position: absolute;
+    bottom: -14px; /* Adjust this value to control the distance between the text and the border */
+    left: 0;
+    width: 200px;
+    height: 6px; /* Thickness of the border */
+    background-color: #7877e6; /* Color of the border */
+}
+
+		.contactOne p{
+			color:#172e36;
+			font-size:17px;
+			letter-spacing:0.2px;
+			text-align:center;
+			margin:0;
+			font-weight:400;
+			line-height:1.4;
+			word-spacing:3px;
+			font-family:helvetica;
+		}
+		.icons{
+			display:flex;
+			gap:10px;
+			margin-top:20px;
+			justify-content:center;
+			align-items:center;
+		}
+		.icons i{
+			width:50px;
+			height:50px;
+			text-align:center;
+			background:black;
+			color:#fff;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			border-radius:50%;
+		}
+		.contactTwo{
+			flex-basis:100%;
+			padding-right:0px;
+			margin-top:50px;
+			margin-left:20%;
+		}
+		.contactTwo form{
+			display:flex;
+			flex-direction:column;
+			
+		}
+		label{
+			margin-bottom:10px;
+		}
+		.inputss{
+			padding:10px;
+			margin-bottom:20px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+.portfolio{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			min-height:100vh;
+			padding-bottom:70px;
+}
+.portfolioWrap{
+			display:flex;
+			gap:0;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			flex-direction:column;
+		
+			
+		}
+.portfolioTitle{
+	
+	padding:80px 60px;
+	background:#eaf3f6;
+	text-align:center;
+	font-size:40px;
+	font-weight:700;
+	width:100%;
+}
+.portfolioCard{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+			flex-direction:column;
+			width:100%;
+			
+				margin-left:20%;
+			
+}
+.portfolioCard .portfolioOne{
+	flex-basis:100%;
+	text-align:center;
+}
+
+.portfolioCard .portfolioOne img{
+	width:80%;
+}
+
+.portfolioCard .portfolioTwo{
+	flex-basis:100%;
+	text-align:center;
+	padding-right:0px;
+	margin-left:0px;
+}
+
+.portfolioCard .portfolioTwo h1{
+	font-size:28px;
+	
+}
+.portfolioCard .portfolioTwo h3{
+	font-size:17px;
+	
+}
+.portfolioCard .portfolioTwo p{
+	margin-bottom:70px;
+}
+.portfolioCard .portfolioTwo a{
+	background:#7877e6;
+	color:#fff;
+	border-radius:20px 0 20px 0;
+	padding:20px 40px;
+	
+}		
+
+
+
+
+
+
+
+
+section{
+	min-height:100vh;
+	width:100%;
+	margin:100px 0;
+}
+
+		
+.footer{
+			width:100%;
+			padding:10px 60px;
+			background:black;
+			text-align:center;
+			height:200px;
+}
+.footer h1{
+	color:#fff;
+	font-size:19px;
+	font-family:helvetica;
+}
+
+}
