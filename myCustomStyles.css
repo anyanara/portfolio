@@ -364,7 +364,17 @@
 }
 
 .portfolioCard .portfolioOne .portfolioImgTwo{
-	width:55%;
+	width:40%;
+	padding-left:60px;
+}
+
+@media (max-width: 500px) {
+	
+.portfolioCard .portfolioOne .portfolioImgTwo{
+	width:40%;
+	padding-left:33px;
+}
+
 }
 .portfolioCard .portfolioTwo{
 	flex-basis:40%;

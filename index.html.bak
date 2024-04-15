@@ -1206,7 +1206,7 @@
 	</div>
 	<div class="homeTwo">
 		<h1 data-aos="zoom-in" style="font-family:helvetica;">Hey, I'm Anya!!</h1>
-		<p style="font-family:helvetica;" data-aos="fade-up">Hello I am Anya.</p>
+		<p style="font-family:helvetica;" data-aos="fade-up">Raleigh-based designer passionate about creating inclusive and accessible digital spaces.</p>
 	</div></div>
 </section>
 
@@ -1223,7 +1223,7 @@
 <br><br>
 My passion for design started overseas, where I was exposed to different languages and cultures at a young age. I was fascinated by how design could transcend language barriers — though I didn’t think of it as eloquently back then! These experiences influenced me both professionally and personally as I focused my interests and areas of expertise at the intersection between humans and technology.
 <br><br>
-When I’m not working, you can find me cheering on the UNC basketball team (Go Heels!), hiking, and cooking Mediterranean food.
+When I’m not working, you can find me cheering on the UNC basketball team (Go Heels!), hiking, and film production.
 		 
 		
 		</p>
@@ -1257,15 +1257,16 @@ When I’m not working, you can find me cheering on the UNC basketball team (Go 
 	
 	<div class="portfolioCard">
     <div class="portfolioOne">
-        <img src="portfolioTwoImg.png" data-aos="zoom-in" class="portfolioImgTwo">
+        <img src="collab.png" data-aos="zoom-in" class="portfolioImgTwo">
     </div>
     <div class="portfolioTwo">
-        <h1 style="font-family:helvetica;" data-aos="fade-up">Urban Trends: A Data-Driven Exploration</h1>
-        <h3 style="font-family:helvetica;" data-aos="fade-up">Data Visualization Project</h3>
-        <p style="font-family:helvetica;" data-aos="fade-up">Exploring the intricate stories hidden within urban data, showcasing the dynamics and patterns shaping our cities.</p>
-        <a style="font-family:helvetica;" href="project-details-two.html" data-aos="fade-up">View project</a>
+        <h1 style="font-family:helvetica;" data-aos="fade-up">Collab: Connecting Students for Collaborative Learning</h1>
+        <h3 style="font-family:helvetica;" data-aos="fade-up">Match-Based Algorithm App</h3>
+        <p style="font-family:helvetica;" data-aos="fade-up">Collab is a revolutionary app designed to foster collaboration among students, connecting them based on shared interests, skills, majors, hobbies, lectures, and professors.</p>
+        <a style="font-family:helvetica;" href="collab-details.html" data-aos="fade-up">Learn More</a>
     </div>
 </div>
+
 
 	
 	</div>
