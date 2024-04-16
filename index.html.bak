@@ -1257,7 +1257,7 @@ When I’m not working, you can find me cheering on the UNC basketball team (Go 
 	
 	<div class="portfolioCard">
     <div class="portfolioOne">
-        <img src="collab.png" data-aos="zoom-in" class="portfolioImgTwo">
+        <img src="Image_1-removebg-preview (5).png" data-aos="zoom-in" class="portfolioImgTwo">
     </div>
     <div class="portfolioTwo">
         <h1 style="font-family:helvetica;" data-aos="fade-up">Collab: Connecting Students for Collaborative Learning</h1>
@@ -1268,6 +1268,21 @@ When I’m not working, you can find me cheering on the UNC basketball team (Go 
 </div>
 
 
+
+<div class="portfolioCard" >
+	
+	<div class="portfolioOne" >
+		<img src="bluebox.png" data-aos="zoom-in" class="portfolioImgTwo">
+	</div>
+	
+	<div class="portfolioTwo" >
+		<h1 style="font-family:helvetica;" data-aos="fade-up">Blue Box</h1>
+		<h3 style="font-family:helvetica;" data-aos="fade-up">Research Project</h3>
+		<p style="font-family:helvetica;" data-aos="fade-up">Pitching an innovative digital kiosk interface for UNC’s School of Information & Library Science.</p>
+		<a style="font-family:helvetica;" href="blue-box-details.html" data-aos="fade-up">View project</a>
+	</div>
+</div>
+	
 	
 	</div>
 </section>

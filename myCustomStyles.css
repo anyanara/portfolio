@@ -368,6 +368,10 @@
 	padding-left:60px;
 }
 
+.portfolioCard .portfolioOne .portfolioImgThree{
+	width:67%;
+}
+
 @media (max-width: 500px) {
 	
 .portfolioCard .portfolioOne .portfolioImgTwo{
